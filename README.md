@@ -1,4 +1,4 @@
-# deathMetta v Next.js
+# deathMetta version Next.js
 
 ## Objective
 
