@@ -1,3 +1,19 @@
+# deathMetta v Next.js
+
+## Objective
+
+Gain familiarity with React. React is one of the most commonly used web frameworks and most jobs will be expecting some basic understanding of this material. 
+
+By rewriting my project in this I can learn some of the ins and outs while I'm adjusting my app.
+
+## Timeline
+
+Expecting to spend less than a week on this, hopefully 20 hours. Most of the work necessary for a full rewrite of this idea is actually on the back end. Since my intent is to fully decouple front and back ends for my future projects, I think that swapping out front end framework builds will become a trivial expenditure of time as the goal is pursued.
+
+## RIP Svelte
+
+I enjoyed the simplicity of Svelte, and it helped clarify for me some of the patterns I need to keep track of in my head while making a project. It would be nice to continue using it; having simple one-file-components is delightful. I want to work someday, though. So. ttyl.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
