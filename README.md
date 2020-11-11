@@ -1,5 +1,18 @@
 # deathMetta version Next.js
 
+### don't forget to comment your code more often in this version :P
+
+### todo
+## Changes from Svelte version
+
+1. **Backend must be serverless** instead of EC2 instances with CRON jobs that executed RCLONE commands and other POWERSHELL file copying/moving/renaming commands. 
+2. **Build script should contain a data fetch** I'd prefer to have a larger serverside footprint than load these things from firebase/s3 when the page needs them. They should **BE** the page. Huge mistake in the way you built first version.
+
+I don't think the way I'm doing this right now makes any sense it just kind of happened while in the midst of a flurry of learning about EC2/Powershell/Bash/Rclone/etc. The pieces just all made sense together for what I was trying to accomplish. However I think that there are better/easier/cheaper ways to accomplish the same jobs. 
+
+The EC2 instances seem to occasionally crash when using the lowest tier machines, so I've been using a more expensive one. Changing this to a cloudwatch/lambda is probably first priority, and rclone might actually be best suited only to local machines.
+
+
 ## Objective
 
 Gain familiarity with React. React is one of the most commonly used web frameworks and most jobs will be expecting some basic understanding of this material. 
